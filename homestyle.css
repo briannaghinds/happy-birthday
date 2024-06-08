@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+:root{
+    --bg-primary: #1b4332;
+    --bg-secondary: #74c69d;
+    --text-secondary: #2d6a4f;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #d8f3dc;
+    font-size: 16px;
+    font-family: "Caprasimo", serif;
+    outline: red dashed 1px;
+}
+
+.caprasimo-regular {
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: #2d6a4f;
+    background-image: url("images/backgroundTEST.png");
+    background-repeat: no-repeat;
+
+    -webkit-background-size:90%;
+    -moz-background-size:90%;
+    -o-background-size:90%;
+    background-size: 90%;
+
+    -webkit-background-position: center top;  
+    -moz-background-position: center top;  
+    -o-background-position: center top;  
+    background-position: center top;
+
+    background-attachment: fixed;
+}
+
+.navbar{
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: var(--bg-primary);
+    transition: height 200ms ease;
+}
+
+.navbar-nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-item{
+    width:100%;
+    padding:10px;
+}
+
+/* .nav-item:last-child{
+    margin-top: auto;
+} */
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: var(--bg-primary);
+    text-decoration: none;
+    filter: grayscale(100%) opacity(0.7);
+    transition: 600ms;
+}
+
+.nav-link svg{
+    width: 2rem;
+    height: 2rem;
+    object-fit: contain;
+}
+
+.nav-link:hover{
+    filter: grayscale(0%) opacity(1);
+    background: var(--bg-secondary);
+    color: var(--text-secondary)
+}
+
+.link-text{
+    display: none;
+    margin-left: 1rem;
+}
+
+.nav-link svg{
+    min-width: 2rem;
+    margin: 0 1.5rem;
+}
+
+.navbar:hover{
+    width: 12rem;
+}
+
+.navbar:hover .link-text{
+    display: block;
+}

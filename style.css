@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+:root{
+    --bg-primary: #1b4332;
+    --bg-secondary: #74c69d;
+    --text-primary: #40916c;
+    --text-secondary: #081c15;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #d8f3dc;
+    font-size: 16px;
+    font-family: "Caprasimo", serif;
+    outline: red dashed 1px;
+}
+
+.caprasimo-regular {
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: #2d6a4f;
+    /* padding: 15px; */
+    /* display: grid;
+    place-items: center; */
+}
+
+.btn{
+    background-color: var(--text-secondary);
+    color: var(--text-primary);
+    text-align: center;
+    text-decoration: none;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 50px;
+    padding: 40px;
+    margin: 50px;
+    color: var(--bg-primary);
+    text-shadow: 5px 5px #74c69d;
+}
+
+p{
+    font-size: 24px;;
+    padding: 50px;
+    margin: 50px;
+}
