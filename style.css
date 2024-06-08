@@ -56,3 +56,18 @@ p{
     margin: 80px;
     text-shadow: 5px 5px var(--text-secondary);
 }
+
+.gallery{
+    display: inline-block;
+    border: 5px solid var(--bg-secondary);
+    margin: 5px;
+}
+
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery:hover{
+    border: 1px solid var(--bg-primary);
+}
