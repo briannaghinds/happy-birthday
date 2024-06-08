@@ -13,7 +13,7 @@
     color: #d8f3dc;
     font-size: 16px;
     font-family: "Caprasimo", serif;
-    outline: red dashed 1px;
+    /* outline: red dashed 1px; */
 }
 
 .caprasimo-regular {
@@ -44,14 +44,15 @@ body{
 
 h1{
     font-size: 50px;
-    padding: 40px;
-    margin: 50px;
+    padding: 30px;
+    margin: 40px;
     color: var(--bg-primary);
     text-shadow: 5px 5px #74c69d;
 }
 
 p{
-    font-size: 24px;;
-    padding: 50px;
-    margin: 50px;
+    font-size: 28px;;
+    padding: 10px;
+    margin: 80px;
+    text-shadow: 5px 5px var(--text-secondary);
 }
